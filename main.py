@@ -1,4 +1,12 @@
-from random import randint
+from random import shuffle
 
-cards = [[1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13], [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13], [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13], [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13]]
+cards = []
+for i in range (13):
+    cards.append(f"{i + 1} S")
+    cards.append(f"{i + 1} H")
+    cards.append(f"{i + 1} D")
+    cards.append(f"{i + 1} C")
 
+shuffle(cards)
+
+print(cards)
