@@ -1,12 +1,9 @@
-from random import shuffle
+from cards import Cards
 
-cards = []
-for i in range (13):
-    cards.append(f"{i + 1} S")
-    cards.append(f"{i + 1} H")
-    cards.append(f"{i + 1} D")
-    cards.append(f"{i + 1} C")
+deck = Cards()
 
-shuffle(cards)
+deck.shuffle()
 
-print(cards)
+deck.deal()
+deck.deal()
+deck.deal()
