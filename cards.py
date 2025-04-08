@@ -2,7 +2,6 @@ from random import shuffle
 
 class Cards():
     def __init__(self):
-        super().__init__()
         self.deck = []
         for i in range (13):
             self.deck.append(f" {i + 1} S")
