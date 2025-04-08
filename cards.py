@@ -5,10 +5,10 @@ class Cards():
         super().__init__()
         self.deck = []
         for i in range (13):
-            self.deck.append(f"{i + 1} S")
-            self.deck.append(f"{i + 1} H")
-            self.deck.append(f"{i + 1} D")
-            self.deck.append(f"{i + 1} C")
+            self.deck.append(f" {i + 1} S")
+            self.deck.append(f" {i + 1} H")
+            self.deck.append(f" {i + 1} D")
+            self.deck.append(f" {i + 1} C")
 
         self.topCard = 0
 

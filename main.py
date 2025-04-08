@@ -8,4 +8,4 @@ deck.shuffle()
 
 player1.newDeal([deck.deal(), deck.deal()])
 
-print(player1.hand)
+player1.printHand()
