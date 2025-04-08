@@ -21,5 +21,6 @@ class Cards():
         if self.topCard == 51:
             print("no more cards")
         else:
-            print(f"Your card is {self.deck[self.topCard]}")
             self.topCard += 1
+        
+        return self.deck[self.topCard]
