@@ -20,6 +20,8 @@ class Cards():
     def deal(self):
         if self.topCard == 51:
             print("no more cards")
+            self.shuffle()
+            self.topCard = 0
         else:
             self.topCard += 1
         
