@@ -25,3 +25,10 @@ class Cards():
             self.topCard += 1
         
         return self.deck[self.topCard]
+    
+    def board(self):
+        board = []
+        for i in range(4):
+            board.append(self.deal())
+
+        return board
