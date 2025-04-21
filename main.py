@@ -12,4 +12,4 @@ player1.newDeal([deck.deal(), deck.deal()])
 
 board = deck.board()
 
-house.communityCards(board)
+house.communityCards()
